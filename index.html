@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+            <p class="h1">DO SOME MATH!!</p>
+    </div>
+    <div class="main">
+      
+      <div class="head-section">
+        <div>
+            <input id="screen" type="text" name="" id="">
+        </div>
+        <div class="row0" style="padding-left: 13px;">
+            <button onclick="alert('Calculator Started')" class="row0-0" style="margin-left:15px ;">ON</button>
+            <button onclick="clearDisp()" class="row0-0" style="margin-left:220px;">CLEAR</button>
+        </div>
+        <div class="row1" style="padding-left: 13px;">
+            <button onclick="btnclick(7)" class="row1-1">7</button>
+            <button onclick="btnclick(8)" class="row1-1">8</button>
+            <button onclick="btnclick(9)" class="row1-1">9</button>
+            <button onclick="btnclick('+')" class="row1-1">+</button>
+        </div>
+        <div class="row2" style="padding-left: 13px;">
+            <button onclick="btnclick(4)" class="row2-2">4</button>
+            <button onclick="btnclick(5)" class="row2-2">5</button>
+            <button onclick="btnclick(6)" class="row2-2">6</button>
+            <button onclick="btnclick('-')" class="row2-2">-</button>
+        </div>
+        <div class="row3" style="padding-left: 13px">
+            <button onclick="btnclick(1)" class="row3-3">1</button>
+            <button onclick="btnclick(2)" class="row3-3">2</button>
+            <button onclick="btnclick(3)" class="row3-3">3</button>
+            <button onclick="btnclick('*')" class="row3-3">x</button>
+        </div>
+        <div class="row4" style="padding-left: 13px">
+            <button onclick="btnclick('.')" class="row4-4">.</button>
+            <button onclick="btnclick(0)" class="row4-4">0</button>
+            <button onclick="equalclick()" class="row4-4">=</button>
+            <button onclick="btnclick('/')" class="row4-4">/</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
