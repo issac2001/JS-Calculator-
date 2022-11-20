@@ -11,7 +11,7 @@ body {
     box-shadow:10px 10px 40px ;
     margin: auto;
     
-    border: 1px solid #fcfefa;
+    border: px solid #fcfefa;
 
 }
 .header{
@@ -20,7 +20,7 @@ body {
     margin-left:650px ;
     margin-top: 0px;
     margin: auto;
-    padding-left: 150px;
+    text-align: center;
     
 }
 p{
